@@ -1,0 +1,7 @@
+# فحص رابط URL
+POST http://192.168.0.2:8000/analyze-url
+Content-Type: application/json
+
+{
+    "url": "facebook.com"
+}

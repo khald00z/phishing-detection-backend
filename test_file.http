@@ -1,0 +1,10 @@
+# فحص ملف
+POST http://192.168.0.2:8000/analyze-file
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample.jpg"
+Content-Type: logo/png
+
+< هنا اختر ملفك من جهازك >
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
