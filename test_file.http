@@ -1,7 +1,6 @@
-### فحص ملف (multipart/form-data)
+### فحص ملف عبر FastAPI
 POST https://phishing-detection-backend-l9rr.onrender.com/analyze-file
 Content-Type: multipart/form-data
+Accept: application/json
 
-# REST Client سيستخدم الباونداري أوتوماتيكياً
-# اكتب السطرين التاليين فقط، واترك كل شيء للبنية التحتية للـ HTTP Client:
-file: ./logo_no_background1.png
+file=@logo_no_background1.png
