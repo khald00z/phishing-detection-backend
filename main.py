@@ -1,6 +1,5 @@
 # main.py
-import os
-import uvicorn
+
 from fastapi import FastAPI, HTTPException, File, UploadFile, Body
 from fastapi.middleware.cors import CORSMiddleware
 import requests
