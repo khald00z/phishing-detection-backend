@@ -1,5 +1,5 @@
 # فحص ملف
-POST http://192.168.0.2:8000/analyze-file
+POST https://phishing-detection-backend-l9rr.onrender.com/analyze-file
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
